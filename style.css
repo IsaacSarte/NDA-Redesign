@@ -120,6 +120,39 @@ header label {
                             display: initial;
                         }
                     }
+                    @media (max-width: 1500px) {
+                        header{
+                            padding: 10px;
+                        }
+                        header label{
+                            display: initial;
+                        }
+                        header .navbar{
+                            position: absolute;
+                            top: 100%;
+                            left: 0;
+                            right: 0;
+                            background: #fff;
+                            border-top: 1px solid rgba(0, 0, 0, .1);
+                            display: none;
+                        }
+                        header .navbar ul li{
+                            width: 100%;
+                        }
+                        header .navbar ul li ul{
+                            position: relative;
+                            width: 100%;
+                        }
+                        header .navbar ul li ul li{
+                            background: #eee;
+                        }
+                        header .navbar ul li ul li ul{
+                            width: 100%;
+                            left: 0;
+                        }
+                        #menu-bar:checked ~ .navbar{
+                            display: initial;
+                        }
 
 /* Home Section */
 
@@ -396,6 +429,67 @@ header label {
                             opacity: 5;
                         }
                     }
+                    @media screen and (max-width: 600px) {
+                        .contents{
+                            display: block;
+                        }
+                        .contents .left{
+                            top: -10%;
+                        }
+                        .contents .left h2 {
+                            font-size: 2.5rem;
+                            margin-bottom: 25px;
+                            
+                        }
+                        .contents .left span {
+                            display: inline-flex;
+                            font-size: 1.7rem;
+                            position: relative;
+                            text-align: end;
+                            left: 100%;
+                        }
+                        .contents .right .home1IMG {
+                            width: 150%;
+                            top: -100px;
+                            left: 25%;
+                        }
+                        .contents .right .homelTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homelBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homeTop {
+                            top: 76%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homeBot {
+                            top: 96%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homerTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .contents .right .homerBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .homeHR {
+                            display: flex;
+                            margin-top: 46%;
+                            filter: blur(2px);
+                            opacity: 5;
+                        }
+                    }
 
 /* Services Section */
 
@@ -450,7 +544,7 @@ header label {
     margin-bottom: 8px;
 }
 
-                    @media screen and (max-width: 375px) {
+                    @media screen and (max-width: 411px) {
                         .services {
                             margin-top: 20vh;
                         }
@@ -471,4 +565,7 @@ header label {
                             font-size: 1em;
                             margin-bottom: 8px;
                         }
+                    
+                    
                     }
+                }
