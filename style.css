@@ -153,6 +153,7 @@ header label {
                         #menu-bar:checked ~ .navbar{
                             display: initial;
                         }
+                    }
 
 /* Home Section */
 
@@ -594,7 +595,5 @@ header label {
                             font-size: 1em;
                             margin-bottom: 8px;
                         }
-                    
-                    
                     }
-                }
+                    
