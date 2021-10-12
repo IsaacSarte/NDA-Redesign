@@ -399,66 +399,6 @@ header label {
                         } */
                     }
 
-                    @media screen and (max-width: 375px) {
-                        .contents{
-                            display: block;
-                        }
-                        .contents .left{
-                            top: -10%;
-                        }
-                        .contents .left h2 {
-                            font-size: 2.5rem;
-                            margin-bottom: 20px;
-                        }
-                        .contents .left span {
-                            display: inline-flex;
-                            font-size: 1.5rem;
-                            position: relative;
-                            text-align: end;
-                            left: 100%;
-                        }
-                        .contents .right .home1IMG {
-                            width: 150%;
-                            top: -100px;
-                            left: 25%;
-                        }
-                        .contents .right .homelTop {
-                            top: 78%;
-                            width: 25%;
-                            left: 10%;
-                        }
-                        .contents .right .homelBot {
-                            top: 95%;
-                            width: 25%;
-                            left: 10%;
-                        }
-                        .contents .right .homeTop {
-                            top: 76%;
-                            width: 25%;
-                            right: 37.5%;
-                        }
-                        .contents .right .homeBot {
-                            top: 96%;
-                            width: 25%;
-                            right: 37.5%;
-                        }
-                        .contents .right .homerTop {
-                            top: 78%;
-                            width: 25%;
-                            left: 65%;
-                        }
-                        .contents .right .homerBot {
-                            top: 95%;
-                            width: 25%;
-                            left: 65%;
-                        }
-                        .homeHR {
-                            display: flex;
-                            margin-top: 46%;
-                            filter: blur(2px);
-                            opacity: 5;
-                        }
-                    }
                     @media screen and (max-width: 600px) {
                         .contents{
                             display: block;
@@ -521,6 +461,73 @@ header label {
                         }
                     }
 
+                    @media screen and (max-width: 375px) {
+                        .contents{
+                            display: block;
+                        }
+                        .contents .left{
+                            top: -10%;
+                        }
+                        .contents .left h2 {
+                            font-size: 2.5rem;
+                            margin-bottom: 20px;
+                        }
+                        .contents .left span {
+                            display: inline-flex;
+                            font-size: 1.5rem;
+                            position: relative;
+                            text-align: end;
+                            left: 100%;
+                        }
+                        .contents .right .home1IMG {
+                            width: 150%;
+                            top: -100px;
+                            left: 25%;
+                        }
+                        .contents .right .homelTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homelBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homeTop {
+                            top: 76%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homeBot {
+                            top: 96%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homerTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .contents .right .homerBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .homeHR {
+                            display: flex;
+                            margin-top: 46%;
+                            filter: blur(2px);
+                            opacity: 5;
+                        }
+                    }
+
+                    @media screen and (max-width: 360px) {
+                        .contents .left span {
+                            font-size: 1.4rem;
+                        }
+                    }
+
 /* Services Section */
 
 .services {
@@ -567,7 +574,7 @@ header label {
     margin-top: -20px;
 }
 
-.services .containerServ .servDesc p{
+.services .containerServ .servDesc p {
     text-align: center;
     font-weight: 500;
     font-size: 1.2em;
