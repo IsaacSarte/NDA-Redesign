@@ -124,17 +124,10 @@ header label {
 /* Home Section */
 
 .home {
-    margin-top: 20vh;
-}
-
-/* section {
-    overflow: hidden;
-} */
-
-.home {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20vh;
 }
 
 .container {
@@ -187,10 +180,6 @@ header label {
     font-style: italic;
     font-weight: 300;
     margin-left: -15%;
-}
-
-.contents .left .span1 {
-    color: rgb(55, 141, 55);
 }
 
 /* Right Side */
@@ -342,3 +331,144 @@ header label {
             transform: translateX(0px);
         }
     }
+
+.homeHR {
+    display: none;
+}
+
+                    @media screen and (max-width: 375px) {
+                        .contents{
+                            display: block;
+                        }
+                        .contents .left{
+                            top: -10%;
+                        }
+                        .contents .left h2 {
+                            font-size: 2.5rem;
+                            margin-bottom: 20px;
+                        }
+                        .contents .left span {
+                            display: inline-flex;
+                            font-size: 1.5rem;
+                            position: relative;
+                            text-align: end;
+                            left: 100%;
+                        }
+                        .contents .right .home1IMG {
+                            width: 150%;
+                            top: -100px;
+                            left: 25%;
+                        }
+                        .contents .right .homelTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homelBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homeTop {
+                            top: 76%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homeBot {
+                            top: 96%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homerTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .contents .right .homerBot {
+                            top: 95%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .homeHR {
+                            display: flex;
+                            margin-top: 46%;
+                            filter: blur(2px);
+                            opacity: 5;
+                        }
+                    }
+
+/* Services Section */
+
+.services {
+    background: #eee;
+    margin-top: 30vh;
+}
+
+.services .containerServ .heading {
+    text-align: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #222;
+}
+
+.services .box-container {
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.services .box-container .box {
+    height: 20rem;
+    width: 30rem;
+    margin: .3rem;
+    overflow: hidden;
+}
+
+.services .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+  
+.services .box-container .box:hover img {
+    transform: scale(1.3);
+}
+
+.services .containerServ .servDesc {
+    align-items: center;
+    margin-top: -20px;
+}
+
+.services .containerServ .servDesc p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+                    @media screen and (max-width: 375px) {
+                        .services {
+                            margin-top: 20vh;
+                        }
+                        .services .containerServ .heading {
+                            font-size: 2.5rem;
+                            font-weight: 500;
+                            color: #222;
+                        }
+                        .services .box-container {
+                            margin-top: 2.5vh;
+                        }
+                        .services .box-container .box {
+                            max-width: 75%;
+                            height: 50%;
+                            overflow: hidden;
+                        }
+                        .services .containerServ .servDesc p{
+                            font-size: 1em;
+                            margin-bottom: 8px;
+                        }
+                    }

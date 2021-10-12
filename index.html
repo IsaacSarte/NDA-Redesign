@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <link rel="icon" href="images/logo.png" type="image/png" sizes="16x16" />
     <title>NDA Gov [Redesign]</title>
 </head>
 <body>
@@ -23,9 +27,10 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#serv">Services▼</a>
                     <ul>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Animal's Health</a></li>
                         <li><a href="#">Breeding</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Animal's Health</a></li>
+                        <li><a href="#">Research</a></li>
                     </ul>
                 </li>
                 <li><a href="#prog">Programs▼</a>
@@ -63,11 +68,83 @@
                     <img src="images/homelBot.png" alt="" class="homelBot">
                 </div>
             </div>
+            <hr class="homeHR"/>
         </div>
     
     </section>
     
 <!-- home section ends -->
+
+<!-- services section starts  -->
+
+    <section class="services" id="serv">
+
+        <div class="containerServ">
+        
+            <h1 class="heading">Our Services</h1>
+        
+            <div class="box-container">
+            
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/serv1.jpg" title="Breeding Services">
+                        <img src="images/serv1.jpg" alt="" />
+                    </a>
+                </div>
+            
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/serv2.jpg" title="Marketing Services">
+                        <img src="images/serv2.jpg" alt="" />
+                    </a>
+                </div>
+
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/serv3.jpg" title="Animal's Health Services">
+                        <img src="images/serv3.jpg" alt="" />
+                    </a>
+                </div>
+        
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/serv4.jpg" title="Research and Development Services">
+                        <img src="images/serv4.jpg" alt="" />
+                    </a>
+                </div>
+            
+            </div>
+
+            <div class="servDesc">
+                <p>👉Upgrading of Local Animals and Breeding or Multiplier farm Operations.</p>
+                <p>👉Fresh milk and other products produced and processed by NDA-assisted dairy farmers meet dairy industry standards.</p>
+                <p>👉To enhance productivity among dairy animals and ensure profitable income for farmers.</p>
+                <p>👉R&D efforts of the NDA are aimed at further improving efficiencies and profitability of its assisted dairy cooperatives and other players in the smallhold setting.</p>
+            </div>
+        
+        </div>
+    
+    </section>
+    
+<!-- services section ends -->
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- aos js file cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- custom js link  -->
+    <script src="main.js"></script>
+
+
+    <script>
+
+    AOS.init({
+        duration:1000,
+        delay:400
+    });
+
+    </script>
 
 </body>
 </html>
