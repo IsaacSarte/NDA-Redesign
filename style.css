@@ -392,6 +392,12 @@ header label {
                             top: 10%;
                         }
                     }
+                    
+                    @media (max-width: 360px) {
+                        .contents .left span {
+                            font-size: 1.4rem;                          
+                        }
+                    }
 
                     @media screen and (max-width: 1400px) {
                         /* .contents .right .home1IMG {
