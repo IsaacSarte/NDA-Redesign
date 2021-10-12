@@ -86,7 +86,7 @@ header label {
     display: none;
 }
 
-                    @media (max-width: 991px) {
+                    @media (max-width: 1448px) {
                         header{
                             padding: 20px;
                         }
@@ -335,6 +335,35 @@ header label {
 .homeHR {
     display: none;
 }
+
+                    @media screen and (max-width: 1620px) {
+                        .contents .left span {
+                            display: inline-flex;
+                            position: relative;
+                            text-align: start;
+                        }
+                    }
+
+                    @media screen and (max-width: 1600px) {
+                        .contents .right {
+                            top: 10%;
+                        }
+                        .contents .right .home1IMG {
+                            top: 30px;
+                        }
+                    }
+
+                    @media (max-width: 1450px) {
+                        .contents .left {
+                            top: 10%;
+                        }
+                    }
+
+                    @media screen and (max-width: 1400px) {
+                        /* .contents .right .home1IMG {
+                            top: 100px;
+                        } */
+                    }
 
                     @media screen and (max-width: 375px) {
                         .contents{
