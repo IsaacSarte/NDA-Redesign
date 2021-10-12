@@ -27,14 +27,8 @@ header {
     z-index: 1000;
 }
 
-header .logo {
-    font-weight: 700;
-    font-size: 2rem;
-    color: #333;
-}
-
-header .logo span {
-    color: rgb(55, 141, 55);
+header .logo img{
+    width: 25%;
 }
 
 header .navbar ul {
@@ -126,3 +120,225 @@ header label {
                             display: initial;
                         }
                     }
+
+/* Home Section */
+
+.home {
+    margin-top: 20vh;
+}
+
+/* section {
+    overflow: hidden;
+} */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+
+.contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Left Side */
+
+.contents .left {
+    position: relative;
+    top: 25%;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    color: #333;
+    opacity: 0;
+    animation: fade 1s linear forwards;
+    animation-delay: 1s;
+}
+
+    @keyframes fade {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+.contents .left h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-left: -15%;
+    margin-bottom: 20px;
+}
+
+.contents .left span {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: -15%;
+}
+
+.contents .left .span1 {
+    color: rgb(55, 141, 55);
+}
+
+/* Right Side */
+
+.contents .right {
+    width: 50%;
+}
+
+.contents .right .home1IMG {
+    position: relative;
+    width: 105%;
+    top: 10px;
+    right: -10%;
+    opacity: 0;
+    animation: fade_in 1s linear forwards;
+}
+
+    @keyframes fade_in {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+.contents .right .homelTop {
+    position: absolute;
+    top: -30px;
+    width: 20%;
+    right: 27%;
+    opacity: 0;
+    animation: fade_in2 1s linear forwards;
+    animation-delay: 1s;
+}
+
+    @keyframes fade_in2 {
+        0%{
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+.contents .right .homelBot {
+    position: absolute;
+    top: 240px;
+    width: 18%;
+    right: 28.4%;
+    opacity: 0;
+    animation: fade_in3 1s linear forwards;
+    animation-delay: 1.5s;
+}
+
+    @keyframes fade_in3 {
+        0%{
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+.contents .right .homeTop {
+    position: absolute;
+    top: -50px;
+    width: 18%;
+    right: 9.5%;
+    opacity: 0;
+    animation: fade_in4 1s linear forwards;
+    animation-delay: 2s;
+}
+
+    @keyframes fade_in4 {
+        0%{
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+.contents .right .homeBot {
+    position: absolute;
+    top: 270px;
+    width: 18%;
+    right: 9.5%;
+    opacity: 0;
+    animation: fade_in5 1s linear forwards;
+    animation-delay: 2s;
+}
+
+    @keyframes fade_in5 {
+        0%{
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+.contents .right .homerTop {
+    position: absolute;
+    top: -30px;
+    width: 18%;
+    right: -9%;
+    opacity: 0;
+    animation: fade_in6 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+    @keyframes fade_in6 {
+        0%{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+.contents .right .homerBot {
+    position: absolute;
+    top: 240px;
+    width: 18%;
+    right: -9.5%;
+    opacity: 0;
+    animation: fade_in7 1s linear forwards;
+    animation-delay: 3s;
+}
+
+    @keyframes fade_in7 {
+        0%{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
