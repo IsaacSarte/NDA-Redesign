@@ -653,6 +653,45 @@ header label {
                         }
                     }
 
+                    @media screen and (max-height: 600px) {
+                        .contents .right .home1IMG {
+                            top: 50px;
+                        }
+                        .contents .right .homelTop {
+                            top: 10px;
+                        }
+                        .contents .right .homeTop {
+                            top: 10px;
+                        }
+                        .contents .right .homerTop {
+                            top: 10px;
+                        }
+                    }
+
+                    @media screen and (max-height: 570px) {
+                        .contents .right .home1IMG {
+                            top: -170px;
+                        }
+                        .contents .right .homelTop {
+                            top: 65%;
+                        }
+                        .contents .right .homelBot {
+                            top: 79%;
+                        }
+                        .contents .right .homeTop {
+                            top: 63%;
+                        }
+                        .contents .right .homeBot {
+                            top: 80%;
+                        }
+                        .contents .right .homerTop {
+                            top: 64%;
+                        }
+                        .contents .right .homerBot {
+                            top: 80%;
+                        }
+                    }
+
 /* Services Section */
 
 .services {
@@ -733,5 +772,4 @@ header label {
                         .services {
                             margin-top: 0vh;
                         }
-                    }
-                    
+                    }          
