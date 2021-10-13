@@ -393,13 +393,31 @@ header label {
                         }
                     }
 
-                    @media screen and (max-width: 1400px) {
-                        /* .contents .right .home1IMG {
+                    @media screen and (max-width: 1024px) {
+                        .contents .right .home1IMG {
+                            top: 150px;
+                        }
+                        .contents .right .homelTop {
+                            top: 110px;
+                        }
+                        .contents .right .homeTop {
                             top: 100px;
-                        } */
+                        }
+                        .contents .right .homerTop {
+                            top: 110px;
+                        }
+                        .contents .right .homelBot {
+                            top: 300px;
+                        }
+                        .contents .right .homeBot {
+                            top: 320px;
+                        }
+                        .contents .right .homerBot {
+                            top: 300px;
+                        }
                     }
 
-                    @media screen and (max-width: 600px) {
+                    @media screen and (max-width: 768px) {
                         .contents{
                             display: block;
                         }
@@ -407,16 +425,70 @@ header label {
                             top: -10%;
                         }
                         .contents .left h2 {
-                            font-size: 2.5rem;
+                            font-size: 3rem;
                             margin-bottom: 25px;
                             
                         }
                         .contents .left span {
                             display: inline-flex;
-                            font-size: 1.7rem;
+                            font-size: 2rem;
                             position: relative;
                             text-align: end;
                             left: 100%;
+                        }
+                        .contents .left .spanH2 {
+                            text-align: end;
+                            left: 145%;
+                        }
+                        .contents .right .home1IMG {
+                            width: 150%;
+                            top: -90px;
+                            left: 25%;
+                        }
+                        .contents .right .homelTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homelBot {
+                            top: 112%;
+                            width: 25%;
+                            left: 10%;
+                        }
+                        .contents .right .homeTop {
+                            top: 76%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homeBot {
+                            top: 112%;
+                            width: 25%;
+                            right: 37.5%;
+                        }
+                        .contents .right .homerTop {
+                            top: 78%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .contents .right .homerBot {
+                            top: 112%;
+                            width: 25%;
+                            left: 65%;
+                        }
+                        .homeHR {
+                            display: flex;
+                            margin-top: 50%;
+                            filter: blur(2px);
+                            opacity: 5;
+                        }
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        .contents .left h2 {
+                            font-size: 2.5rem;  
+                        }
+                        .contents .left span {
+                            font-size: 1.7rem;
                         }
                         .contents .right .home1IMG {
                             width: 150%;
@@ -454,17 +526,17 @@ header label {
                             left: 65%;
                         }
                         .homeHR {
-                            display: flex;
                             margin-top: 46%;
-                            filter: blur(2px);
-                            opacity: 5;
+                        }
+                    }
+
+                    @media screen and (max-width: 414px) {
+                        .contents .left .spanH2 {
+                            left: 105%;
                         }
                     }
 
                     @media screen and (max-width: 375px) {
-                        .contents{
-                            display: block;
-                        }
                         .contents .left{
                             top: -10%;
                         }
@@ -526,6 +598,58 @@ header label {
                         .contents .left span {
                             font-size: 1.5rem;
                             text-align: end;
+                        }
+                        .contents .right .home1IMG {
+                            top: -170px;
+                        }
+                        .contents .right .homelTop {
+                            top: 65%;
+                        }
+                        .contents .right .homelBot {
+                            top: 79%;
+                        }
+                        .contents .right .homeTop {
+                            top: 63%;
+                        }
+                        .contents .right .homeBot {
+                            top: 80%;
+                        }
+                        .contents .right .homerTop {
+                            top: 64%;
+                        }
+                        .contents .right .homerBot {
+                            top: 80%;
+                        }
+                    }
+
+                    @media screen and (max-width: 320px) {
+                        .contents .left span {
+                            font-size: 1.3rem;
+                            text-align: end;
+                        }
+                        .contents .right .home1IMG {
+                            top: -170px;
+                        }
+                        .contents .right .homelTop {
+                            top: 65%;
+                        }
+                        .contents .right .homelBot {
+                            top: 79%;
+                        }
+                        .contents .right .homeTop {
+                            top: 63%;
+                        }
+                        .contents .right .homeBot {
+                            top: 80%;
+                        }
+                        .contents .right .homerTop {
+                            top: 64%;
+                        }
+                        .contents .right .homerBot {
+                            top: 80%;
+                        }
+                        .homeHR {
+                            margin-top: 55%;
                         }
                     }
 
@@ -602,6 +726,12 @@ header label {
                         .services .containerServ .servDesc p{
                             font-size: 1em;
                             margin-bottom: 8px;
+                        }
+                    }
+
+                    @media screen and (max-width: 320px) {
+                        .services {
+                            margin-top: 0vh;
                         }
                     }
                     
