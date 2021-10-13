@@ -867,3 +867,56 @@ header label {
     box-shadow: .1rem .5rem rgb(28, 110, 28),
                 0 .3rem .5rem rgba(0,0,0,.3);
 }
+
+                    @media screen and (max-width: 414px) {
+                        .programs .containerProg .heading {
+                            font-size: 2.5rem;
+                        }
+                        .programs .box-container {
+                            margin-top: 0px;
+                        }
+                        .programs .box-container .box {
+                            margin: 3rem 1rem;
+                            width: 10rem;
+                        }
+                        .programs .box-container .box img {
+                            height: 5rem;
+                            width: 100%;
+                        }
+                        .programs .box-container .box .content h3 {
+                            font-size: 1rem;
+                        }
+                        .programs .box-container .box .content p {
+                            font-size: 0.6rem;
+                        }
+                        .button {
+                            height: 3rem;
+                            width: 7rem;
+                            font-size: 0.8rem;
+                        }
+                    }
+
+                    @media screen and (max-width: 320px) {
+                        .programs .containerProg .heading {
+                            font-size: 2rem;
+                        }
+                        .programs .box-container .box {
+                            margin: 3rem 2rem;
+                            width: 7rem;
+                        }
+                        .programs .box-container .box img {
+                            height: 5rem;
+                            width: 100%;
+                        }
+                        .programs .box-container .box .content h3 {
+                            font-size: 0.8rem;
+                        }
+                        .programs .box-container .box .content p {
+                            font-size: 0.5rem;
+                        }
+                        .button {
+                            height: 3rem;
+                            width: 4rem;
+                            font-size: 0.5rem;
+                        }
+                    }
