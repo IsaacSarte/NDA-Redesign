@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+:root{
+    --blue:#0188DF;
+    --black:#354046;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -697,6 +702,7 @@ header label {
 .services {
     background: #eee;
     margin-top: 30vh;
+    min-height: 30vh;
 }
 
 .services .containerServ .heading {
@@ -772,4 +778,92 @@ header label {
                         .services {
                             margin-top: 0vh;
                         }
-                    }          
+                    } 
+
+.programs {
+    background-color: #73777a;
+    min-height: 95vh;
+}
+
+.programs .containerProg .heading {
+    text-align: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #222;
+}
+
+.programs .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.programs .box-container .box {
+    width: 25rem;
+    background-color: #eee;
+    margin: 3rem 2rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.programs .box-container .box img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.programs .box-container .box .content {
+    padding: 0 1.5rem;
+}
+  
+.programs .box-container .box .content h3 {
+    font-size: 2rem;
+    color:var(--black);
+}
+  
+.programs .box-container .box .content:hover h3 {
+    color: rgb(28, 110, 28);
+}
+  
+.programs .box-container .box .content p {
+    font-size: 1.3rem;
+    color:var(--black);
+}
+
+.button {
+    height: 3.5rem;
+    width: 15rem;
+    background: rgb(28, 110, 28);
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+  
+.button::before {
+    content: '';
+    position: absolute;
+    top: -100%; left: 0;
+    height:100%;
+    width: 100%;
+    background-color: var(--black);
+    z-index: -1;
+    transition: .2s linear;
+}
+  
+.button:hover:before {
+    top: 0%;
+}
+  
+.button:hover {
+    box-shadow: .1rem .5rem rgb(28, 110, 28),
+                0 .3rem .5rem rgba(0,0,0,.3);
+}
