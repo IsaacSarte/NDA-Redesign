@@ -995,6 +995,29 @@ header label {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
+                    @media screen and (max-width: 1024px) {
+                        .transparency .transTable {
+                            display: none;
+                        }
+                        .transparency .tableMobile,
+                        .transparency .tableMobile-Two,
+                        .transparency .tableMobile-Three {
+                            display: grid;
+                            place-content: center;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 768px) {
+                        .transparency .transTable {
+                            display: none;
+                        }
+                        .transparency .tableMobile,
+                        .transparency .tableMobile-Two,
+                        .transparency .tableMobile-Three {
+                            display: grid;
+                            place-content: center;
+                        }
+                    }
                     @media screen and (max-width: 414px) {
                         .transparency .heading {
                             font-size: 2rem;
