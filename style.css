@@ -1034,6 +1034,11 @@ header label {
                         }
                     }
 
+.industry {
+    display: grid;
+    place-content: center;
+}
+
 .industry .heading {
     text-align: center;
     align-items: center;
@@ -1043,6 +1048,22 @@ header label {
 }
 
 .industry a {
+    margin-top: 20px;
     display: grid;
     place-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #333;
+    transition: 0.2s;
+}
+
+.industry a:hover {
+    color: rgb(34, 119, 34);
+    font-size: 1.4rem;
+}
+
+.industry .imgBx img {
+    width: 100%;
 }
