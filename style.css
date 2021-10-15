@@ -995,7 +995,7 @@ header label {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
-                    @media screen and (max-width: 1024px) {
+                    @media screen and (max-width: 1290px) {
                         .transparency .transTable {
                             display: none;
                         }
