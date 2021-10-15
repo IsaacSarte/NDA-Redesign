@@ -1041,3 +1041,8 @@ header label {
     font-weight: 500;
     color: #222;
 }
+
+.industry a {
+    display: grid;
+    place-content: center;
+}
