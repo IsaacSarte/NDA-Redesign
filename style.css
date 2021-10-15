@@ -1033,3 +1033,11 @@ header label {
                             width: 50%;
                         }
                     }
+
+.industry .heading {
+    text-align: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #222;
+}
